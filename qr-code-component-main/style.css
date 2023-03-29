@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+*{
+
+    margin: 0;
+
+}
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#container{
+
+    max-width: 360px;
+    margin: 0 auto;
+
+}
+
+.block{
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 17px;
+    margin: 0 1em;
+}
+
+.block img{
+
+    border-radius: 17px;
+    max-width: 100%;
+
+} 
+
+.text{
+
+    padding: 28px 22px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+
+}
+
+.text h2{
+
+    padding-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+    font-size: 19px;
+
+}
+
